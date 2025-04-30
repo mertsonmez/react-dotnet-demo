@@ -19,7 +19,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "https": {
+    "https": { //Bu profil HTTPS ile çalışmak içindir. Eğer Docker'da HTTPS kullanmıyorsan (ki genellikle dev ortamda gerekmez), bu profilin sana bir faydası olmayacaktır. Ama bırakılabilir, hata oluşturmaz.
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
@@ -29,7 +29,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IIS Express": {
+    "IIS Express": { //Visual Studio kullanıyorsan gerekir yoksa gereksiz.
       "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "swagger",
